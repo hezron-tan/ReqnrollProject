@@ -70,7 +70,7 @@ namespace ReqnrollProject.StepDefinitions
             Assert.AreEqual(expectedResponseCode, Response.responseCode,
                             $"Expected response code: {expectedMessage} does not match actual: {Response.responseCode}");
             Assert.AreEqual(expectedMessage, Response.message,
-                $"Expected response message: {expectedMessage} does not match actual: {Response.responseCode}");
+                $"Expected response message: {expectedMessage} does not match actual: {Response.message}");
         }
     }
 }
